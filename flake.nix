@@ -23,6 +23,7 @@
       lib = lib // {
         nixosSystem = { modules, ... } @ args:
           import ./nixos/lib/eval-config.nix (args // {
+	    builtins.trace ''${toString self.shortRev} ${self.rev}''
             modules = modules ++
               [ { system.nixos.versionSuffix =
                     ".${lib.substring 0 8 self.lastModified}.${self.shortRev or "dirty"}";
