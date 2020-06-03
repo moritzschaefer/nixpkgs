@@ -5793,6 +5793,8 @@ in {
 
   python-periphery = callPackage ../development/python-modules/python-periphery { };
 
+  scikit-plot = callPackage ../development/python-modules/scikit-plot { };
+
   python-pipedrive = callPackage ../development/python-modules/python-pipedrive { };
 
   python-prctl = callPackage ../development/python-modules/python-prctl { };
@@ -7820,8 +7822,6 @@ in {
   pybedtools = callPackage ../development/python-modules/pybedtools { };
 
   pyensembl = callPackage ../development/python-modules/pyensembl { };
-
-  scikit-plot = callPackage ../development/python-modules/scikit-plot { };
 
   serializable = callPackage ../development/python-modules/serializable { };
 
