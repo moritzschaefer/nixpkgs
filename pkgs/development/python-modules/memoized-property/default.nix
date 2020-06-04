@@ -11,6 +11,7 @@ buildPythonPackage rec {
 
 
   pythonImportsCheck = [ "memoized_property" ];
+  doCheck = false;
 
   meta = with stdenv.lib; {
     homepage = "https://github.com/estebistec/python-memoized-property";
