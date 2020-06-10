@@ -7882,6 +7882,9 @@ in {
   tinytimer = callPackage ../development/python-modules/tinytimer { };
 
   typechecks = callPackage ../development/python-modules/typechecks { };
+
+  swifter = callPackage ../development/python-modules/swifter { };
+
 });
 
 in fix' (extends overrides packages)
