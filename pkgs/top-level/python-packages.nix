@@ -7735,6 +7735,8 @@ in {
 
   swifter = callPackage ../development/python-modules/swifter { };
 
+  matplotlib-venn = callPackage ../development/python-modules/matplotlib-venn { };
+
 });
 
 in fix' (extends overrides packages)
