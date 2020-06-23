@@ -5,7 +5,7 @@ buildPythonPackage rec {
 
   src = builtins.fetchGit {
     url = "git://github.com/konstantint/matplotlib-venn";
-    ref = "c26796c9925bdac512edf48387452fbd1848c791";
+    rev = "c26796c9925bdac512edf48387452fbd1848c791";
   };
 
   checkInputs = [ pytest ];
